@@ -15,7 +15,7 @@ openai.api_key = OPENAI_API_KEY
 class GPTClient:
     """
     OpenAI v1.0+ 인터페이스용 GPT 클라이언트.
-    openai.chat.completions.create(...) 로 요청합니다.
+    openai.chat.completions.create(...) 로 요청
     """
     def __init__(self):
         # 원하시는 모델로 바꿔도 됩니다. (예: "gpt-4o-mini" 등)
