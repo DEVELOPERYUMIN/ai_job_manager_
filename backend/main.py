@@ -10,7 +10,7 @@ Base.metadata.create_all(bind=engine)
 app = FastAPI(title="Job Prep Assistant")
 app.add_middleware(
   CORSMiddleware,
-  allow_origins=["*"],    # 필요하다면 프런트엔드 주소만 명시해도 됩니다.
+  allow_origins=["*"],    
   allow_credentials=True,
   allow_methods=["*"],
   allow_headers=["*"],
