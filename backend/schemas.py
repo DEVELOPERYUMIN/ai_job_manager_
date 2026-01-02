@@ -17,7 +17,6 @@ class ResumeOut(BaseModel):
         orm_mode = True
 
 class ResumeFeedbackRequest(BaseModel):
-    # 본문 사용 없이 빈 JSON만 필요하므로 필드 없이 pass 합니다.
     pass
 
 class ResumeFeedbackOut(BaseModel):
